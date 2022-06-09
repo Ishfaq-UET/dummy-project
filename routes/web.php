@@ -31,5 +31,12 @@ Route::get('/greeitngs', function () {
 });
 
 
+
+
+
+
+
+
+
 Route::get('/fasadesview',[\App\Http\Controllers\TestController::class, 'show']);
 Route::get('/profile',[\App\Http\Controllers\TestController::class, 'index']);
